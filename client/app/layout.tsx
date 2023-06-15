@@ -1,10 +1,8 @@
 import Header from "../app/components/header/header";
 import "./globals.css";
-import { Inter } from "next/font/google";
-import UserPage from "@/app/pages/user-page/user-page";
-import Sidebar from "@/app/components/sidebar/sidebar";
 
-const inter = Inter({ subsets: ["latin"] });
+import Sidebar from "@/app/components/sidebar/sidebar";
+import PrepareCard from "@/app/prepare-card/page";
 
 export const metadata = {
   title: "Kremovar",
@@ -18,11 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="container mx-auto h-screen">
+      <body className="container mx-auto min-h-screen">
         <Header />
-        <div className="flex">
+        <div className="flex md:flex-row flex-col overflow-hidden">
           <Sidebar />
-          <UserPage />
+
           {children}
         </div>
       </body>
