@@ -1,11 +1,61 @@
-{
 
-    "title":"PhaseName",
+{"phaze": [
+
+{
+    "title":"Жирная фаза",
     "phaseData": {
-        "ingrds": [{"Fat": ""}, {"weight": ""}]
+        "ingrds": {[
+          {
+            {"ingridName": "Масло органы"},
+            {"Fat": ""},
+            {"weight": ""}
+          },
+          {
+            {"ingridName": ""},
+            {"Fat": ""},
+            {"weight": ""}
+          },
+          {
+            {"ingridName": ""},
+            {"Fat": ""},
+            {"weight": ""}
+          },
+          {
+            {"ingridName": ""},
+            {"Fat": ""},
+            {"weight": ""}
+          },
+          {
+            {"ingridName": ""},
+            {"Fat": ""},
+            {"weight": ""}
+          },
+          {
+            {"ingridName": ""},
+            {"Fat": ""},
+            {"weight": ""}
+          }
+
+        ]}
     }
 }
 
+
+
+
+
+
+]
+}
+
+
+
+{
+  "title":"PhaseName",
+  "phaseData": {
+      "ingrds": [{"Fat": ""}, {"weight": ""}]
+  }
+}
 
 
 

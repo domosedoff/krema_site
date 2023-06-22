@@ -1,6 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class CreateUserDTO {
+export class AuthUserResponce {
   @IsString()
   name: string;
 
@@ -12,4 +12,7 @@ export class CreateUserDTO {
 
   @IsString()
   password: string;
+
+  @IsString()
+  token: string;
 }
